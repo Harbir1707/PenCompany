@@ -1,4 +1,4 @@
-Assignment 1 -  #PenCompany ASP.NET Core MVC Web Application
+Assignment 1 -  #PenCompany ASP.NET Core Web Application
 Starting time: 1511
 Date: 2023-10-12
 Author: Harbir kaur powar 0825064
@@ -29,7 +29,7 @@ Its showing the output
 Now open the Views/Shared/_Layout.cshtml file and replace the content of the layout.cshtml file and run it (got the ouput)
 Verified the Views/_ViewStart.cshtml file
 Open the Index.html and change the title and h2 element 
-now save it and run it by using https://localhost:{PORT}/PenCompany (everything thing fine)
+now save it and run it by using https://localhost:{PORT}/PenCompany (everything runs properly)
 In PenCompanyController.cs , change the welcome method to add a Message and NumTimes value to the ViewData dictionary
 Create a welcome.cshtml to the PenCompany folder and now create the loop in the welcome.cshtml which display the NumTimes while opening the page
 Save it and browse it - https://localhost:{PORT}/PenCompany/Welcome?name=Rick&numtimes=4
