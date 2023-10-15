@@ -10,7 +10,7 @@ Authentication: none
 Add Conroller:-
 Created a default ASP.NET Core web Application
 Named the project to PenCompany and http enabled by default
-firslty i commented out the  //"sslPort": 44365 
+firslty i commented out the  //"sslPort": 44344
 Then add the controller in controller folder and add new item - "PenCompanyController.cs"
 do some changes in public method and then tested it by using https://localhost:portnumber/PenCompany
 The routing format is set in the Configure method in Startup.cs file using this pattern - pattern: "{controller=Home}/{action=Index}/{id?}");
